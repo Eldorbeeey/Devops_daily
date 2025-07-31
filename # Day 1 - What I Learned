@@ -1,0 +1,59 @@
+# 🌐 Virtualization — DevOps Journey Day 1
+
+## What is Virtualization?
+
+Virtualization is the process of creating virtual versions of computer systems inside your physical machine.
+
+Instead of buying 5 different computers to run different operating systems (like Linux, Windows, etc.), you can run them all virtually on a single machine.
+
+---
+
+## Key Concepts
+
+### 🔸 Virtual Machine (VM)
+- A **Virtual Machine** is like a computer inside your computer.
+- It has its own virtual CPU, memory, disk, and operating system.
+- You can run multiple VMs on a single machine.
+
+> Example: You can run Ubuntu Linux inside your Windows laptop as a VM.
+
+---
+
+### 🔸 Hypervisor
+A **hypervisor** is software that creates and manages Virtual Machines.
+
+#### Two Types of Hypervisors:
+1. **Type 1 (Bare-metal)**  
+   - Runs directly on hardware  
+   - Faster and more efficient  
+   - Used in enterprise systems  
+   - Examples: VMware ESXi, Microsoft Hyper-V
+
+2. **Type 2 (Hosted)**  
+   - Runs inside an existing OS (like an app)  
+   - Easier to set up for learning  
+   - Examples: VirtualBox, VMware Workstation
+
+---
+
+## Why is Virtualization important in DevOps?
+
+✅ You can simulate multiple servers on a single laptop  
+✅ It saves hardware costs  
+✅ You can test apps in different environments  
+✅ Helps learn cloud, containers, automation (like Docker, Kubernetes)
+
+---
+
+## Tools Mentioned in My Course
+- **VirtualBox** – Type 2 hypervisor (used to run VMs)
+- **Ubuntu** – A popular Linux distro for practice
+- **VMware** – Enterprise virtualization tool
+
+---
+
+## What I Learned Today
+- The difference between virtualization, VM, and hypervisors
+- The types of hypervisors and how VMs are created
+- That I don’t need multiple machines — virtualization makes DevOps learning easier and cheaper
+
