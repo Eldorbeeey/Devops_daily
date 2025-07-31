@@ -1,0 +1,95 @@
+🧠 Day 2 - Terminal Survival Begins (Linux)
+
+Might be basic for most, but I'm just starting out — taking notes and tracking my progress as I go)))
+
+## 📘 What I Learned Today
+
+### 1. **Navigating Directories**
+
+* `pwd` → shows where I am (present working directory).
+* `ls` → shows what’s inside the current folder.
+* `cd foldername` → go into a folder.
+* `cd ..` → go one step back (to parent directory).
+* `cd ~` → go back to the home folder.
+
+🧠 *I realized navigating Linux is kinda like finding my way in a dark room with a flashlight.*
+
+---
+
+### 2. **Creating & Deleting**
+
+* `mkdir foldername` → make a new folder.
+* `touch filename.txt` → make a new empty file.
+* `rm filename` → delete a file.
+* `rm -r foldername` → delete a folder and everything inside.
+
+😅 *Almost deleted the wrong thing. Scary but fun.*
+
+---
+
+### 3. **Absolute vs Relative Paths**
+
+* **Absolute path** → starts from root `/` (like full home address).
+
+  * Example: `/home/eldorbeeey/Documents/myfile.txt`
+* **Relative path** → starts from where I currently am.
+
+  * Example: `../Downloads` (go up one level, then into Downloads)
+
+🧭 *Learning this felt like learning directions in a new city.*
+
+---
+
+### 4. **Intro to Vim**
+
+* `vim filename` → opens file in Vim.
+* Press `i` → to start writing.
+* Press `Esc` → to stop writing.
+* Type `:w` → to save.
+* Type `:q` → to quit.
+* `:wq` → save and quit.
+
+💀 *Tried to exit Vim. Failed. Cried. Googled. Finally escaped.*
+
+---
+
+## 🔧 Bonus: Saw This Mysterious File
+
+Found a file named `devops_course_setup.sh` in my home directory. I didn’t create it, but it's probably from my DevOps course.
+
+✅ Checked which tools are installed using `--version` commands.
+
+---
+
+## 📦 Tools Checked:
+
+```bash
+vagrant --version   
+virtualbox --version 
+```
+
+📌 Installing and using these is next on my list!
+
+---
+
+## 🔥 Reflections
+
+Today I:
+
+* Faced my fear of the terminal.
+* Got confused, panicked, and kept going.
+* Made a folder and deleted it like a pro.
+* Opened Vim and survived.
+
+📅 **Tomorrow’s goal**: Understand what Vagrant is, why it needs VirtualBox, and actually run my first VM.
+
+
+---
+
+## 🙌 Ending Note:
+
+I’m documenting this journey publicly to:
+
+* Keep myself accountable,
+* Help other beginners feel less scared,
+* And one day look back and laugh at how “pwd” once felt confusing.
